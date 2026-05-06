@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="cs" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urbanismus 21. Století | VOHRALIK.LAB</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body { font-family: 'Space Grotesk', sans-serif; background-color: #fdfdfd; color: #1a1a1a; }
+        .card-hover { transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
+        .card-hover:hover { transform: translateY(-8px); box-shadow: 0 20px 40px -15px rgba(249, 115, 22, 0.2); }
+        .text-balance { text-wrap: balance; }
+        .dutch-orange { color: #f97316; }
+        .bg-dutch-orange { background-color: #f97316; }
+    </style>
+</head>
+<body class="antialiased">
+
+    <nav class="fixed w-full z-50 bg-white/80 backdrop-blur-md border-b border-neutral-100">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <span class="font-bold text-xl tracking-tighter text-neutral-900 uppercase">VOHRALIK<span class="text-orange-500">.</span>LAB</span>
+                <span class="h-4 w-[1px] bg-neutral-300 mx-2"></span>
+                <span class="text-xs font-bold uppercase tracking-widest text-neutral-500">Urbanismus</span>
+            </div>
+            <div class="hidden md:flex items-center space-x-8 text-sm font-bold uppercase tracking-wider text-neutral-600">
+                <a href="#vize" class="hover:text-orange-600 transition">Vize</a>
+                <a href="#jak-proc" class="hover:text-orange-600 transition">Jak & Proč</a>
+                <a href="#inspirace" class="hover:text-orange-600 transition">Inspirace</a>
+                <a href="#spoluprace" class="px-5 py-2.5 bg-neutral-900 text-white rounded-full hover:bg-orange-600 transition shadow-lg shadow-orange-600/10">Kontakt</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden border-b border-neutral-50">
+        <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
+            <div>
+                <span class="inline-block px-4 py-1.5 rounded-full bg-orange-50 text-orange-600 text-xs font-bold uppercase tracking-widest mb-6 italic">Holandské standardy v českém kontextu</span>
+                <h1 class="text-5xl lg:text-7xl font-bold text-neutral-900 leading-tight mb-8 text-balance">
+                    Vracíme do měst a obcí <span class="text-orange-500 italic">život.</span>
+                </h1>
+                <p class="text-xl text-neutral-600 mb-10 leading-relaxed max-w-xl">
+                    Implementujeme vize, kde prioritu získává člověk a bezpečnost. Přinášíme standardy, ve kterých je <span class="font-bold underline decoration-orange-500 text-neutral-900">auto pouze hostem.</span>
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#audit" class="px-8 py-4 bg-orange-600 text-white rounded-2xl font-bold text-center hover:bg-orange-700 transition shadow-xl shadow-orange-600/30">Auditní procházka obcí</a>
+                    <a href="#jak-proc" class="px-8 py-4 border-2 border-neutral-900 text-neutral-900 rounded-2xl font-bold text-center hover:bg-neutral-50 transition">Naše metodika</a>
+                </div>
+            </div>
+            <div class="relative">
+                <div class="aspect-square bg-neutral-900 rounded-[3rem] overflow-hidden rotate-3 shadow-2xl relative z-10 border-8 border-white">
+                   <img src="https://images.unsplash.com/photo-1513694490325-244a21710b67?auto=format&fit=crop&q=80&w=1000" 
+                        alt="Holandská ulice s cyklisty a shared space" 
+                        class="w-full h-full object-cover opacity-90 group-hover:scale-105 transition-transform duration-700">
+                   <div class="absolute inset-0 bg-gradient-to-t from-orange-950/90 p-12 flex flex-col justify-end">
+                       <p class="text-white text-2xl font-bold leading-snug text-balance uppercase tracking-tighter">"Ulice vrací lidem domov, když v nich opět začne téct život."</p>
+                   </div>
+                </div>
+                <div class="absolute -top-10 -right-10 w-64 h-64 bg-orange-100 rounded-full blur-3xl -z-10"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="jak-proc" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <span class="text-orange-500 text-xs font-bold uppercase tracking-widest">Strategický přístup</span>
+                <h2 class="text-4xl font-bold text-neutral-900 mt-2 mb-4">Princip udržitelné bezpečnosti</h2>
+                <p class="text-neutral-500 max-w-2xl mx-auto text-lg">Měníme prostor tak, aby design přirozeně předcházel lidským chybám a vracel bezpečnost tam, kde chybí.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-16 items-start">
+                <div class="space-y-8">
+                    <h3 class="text-2xl font-bold text-neutral-900 flex items-center italic">
+                        <span class="w-2 h-8 bg-orange-500 mr-4"></span> PROČ to měnit?
+                    </h3>
+                    <div class="space-y-6 text-neutral-600">
+                        <div class="p-6 bg-neutral-50 rounded-2xl border-l-4 border-orange-500">
+                            <h4 class="font-bold text-neutral-900 mb-1">Bezpečí namísto strachu</h4>
+                            <p class="text-sm">Fyzicky eliminujeme rizika u škol a v centrech. Chceme, aby děti mohly jít samy ven bez doprovodu rodičů.</p>
+                        </div>
+                        <div class="p-6 bg-neutral-50 rounded-2xl border-l-4 border-orange-500">
+                            <h4 class="font-bold text-neutral-900 mb-1">Rozvoj lokálního obchodu</h4>
+                            <p class="text-sm">Auta nenakupují, lidé ano. Živá ulice se stromy a lavičkami přirozeně zvyšuje tržby místních služeb.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="space-y-8">
+                    <h3 class="text-2xl font-bold text-neutral-900 flex items-center italic">
+                        <span class="w-2 h-8 bg-teal-500 mr-4"></span> JAK to děláme?
+                    </h3>
+                    <div class="space-y-6 text-neutral-600">
+                        <div class="p-6 bg-neutral-50 rounded-2xl border-l-4 border-teal-500">
+                            <h4 class="font-bold text-neutral-900 mb-1">Psychologie designu</h4>
+                            <p class="text-sm">Místo drahých značek měníme vnímání šířky cesty. Řidič zpomalí instinktivně díky optickému zúžení.</p>
+                        </div>
+                        <div class="p-6 bg-neutral-50 rounded-2xl border-l-4 border-teal-500">
+                            <h4 class="font-bold text-neutral-900 mb-1">Odpouštějící infrastruktura</h4>
+                            <p class="text-sm">Infrastruktura, která chybu uživatele „odpustí“ měkkým designem a zelení, namísto betonových bariér.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="inspirace" class="py-24 bg-neutral-950 text-white overflow-hidden relative">
+        <div class="absolute top-0 right-0 p-32 bg-orange-500/10 blur-[120px] rounded-full"></div>
+        <div class="max-w-7xl mx-auto px-6 relative z-10">
+            <div class="mb-16">
+                <span class="text-orange-500 text-xs font-bold uppercase tracking-widest italic">Prověřená praxe</span>
+                <h2 class="text-4xl md:text-5xl font-bold mt-2 tracking-tighter">Evropská inspirace</h2>
+                <p class="text-neutral-400 mt-4 max-w-2xl">Tyto principy nejsou teorií. Jsou standardem, který transformuje města i malé obce napříč celým kontinentem.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-white/5 border border-white/10 p-8 rounded-3xl backdrop-blur-sm card-hover">
+                    <div class="text-orange-500 mb-6"><i data-lucide="map-pin"></i></div>
+                    <h4 class="text-xl font-bold mb-2">Gent, Belgie</h4>
+                    <p class="text-neutral-500 text-sm leading-relaxed">Implementace dopravních buněk. Tranzitní doprava zmizela z rezidenčních čtvrtí během jediné noci.</p>
+                </div>
+                <div class="bg-white/5 border border-white/10 p-8 rounded-3xl backdrop-blur-sm card-hover">
+                    <div class="text-orange-500 mb-6"><i data-lucide="bike"></i></div>
+                    <h4 class="text-xl font-bold mb-2">Berlín, Německo</h4>
+                    <p class="text-neutral-500 text-sm leading-relaxed">Fahrradstraßen – cyklistické ulice, kde cyklista určuje tempo a auto je v roli hosta.</p>
+                </div>
+                <div class="bg-white/5 border border-white/10 p-8 rounded-3xl backdrop-blur-sm card-hover">
+                    <div class="text-orange-500 mb-6"><i data-lucide="navigation"></i></div>
+                    <h4 class="text-xl font-bold mb-2">Lucembursko</h4>
+                    <p class="text-neutral-500 text-sm leading-relaxed">Celostátní strategie Modu 2.0. Propojení bezplatné dopravy s chytrými multi-modálními uzly.</p>
+                </div>
+                <div class="bg-white/5 border border-white/10 p-8 rounded-3xl backdrop-blur-sm card-hover">
+                    <div class="text-orange-500 mb-6"><i data-lucide="zap"></i></div>
+                    <h4 class="text-xl font-bold mb-2">Paříž, Francie</h4>
+                    <p class="text-neutral-500 text-sm leading-relaxed">Vypařování dopravy. Přeměna nábřeží na parky bez vzniku zácp v okolních ulicích.</p>
+                </div>
+            </div>
+
+            <div class="mt-16 p-8 bg-orange-600 rounded-[2rem] flex flex-col md:flex-row justify-between items-center gap-8 shadow-2xl shadow-orange-600/20">
+                <div class="text-white text-center md:text-left">
+                    <h5 class="text-2xl font-bold">Lze to aplikovat i ve vaší obci?</h5>
+                    <p class="opacity-80 mt-1">Holandské standardy jsou plně škálovatelné – od metropolí po nejmenší české vesnice.</p>
+                </div>
+                <a href="#spoluprace" class="px-10 py-4 bg-neutral-900 text-white rounded-2xl font-bold hover:bg-white hover:text-orange-600 transition-all uppercase tracking-widest text-xs">Chci znát možnosti</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="standardy" class="py-24">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-4xl font-bold text-neutral-900 mb-16 italic text-center">Nástroje transformace</h2>
+            <div class="space-y-6">
+                <div class="group bg-neutral-900 text-white rounded-[2rem] p-8 lg:p-12 flex flex-col lg:flex-row gap-12 items-center transition-all hover:bg-neutral-800">
+                    <div class="lg:w-1/2">
+                        <div class="inline-block px-3 py-1 bg-orange-500/20 text-orange-400 rounded-full text-[10px] font-bold uppercase tracking-widest mb-6">Shared Space</div>
+                        <h3 class="text-3xl font-bold mb-6">Sdílený prostor bez bariér</h3>
+                        <p class="text-neutral-400 leading-relaxed mb-8">Odstraněním obrubníků a sjednocením úrovní vracíme zodpovědnost uživatelům. Ulice se stává bezpečným obývacím pokojem obce.</p>
+                    </div>
+                    <div class="lg:w-1/2 w-full h-64 bg-white/5 rounded-2xl flex items-center justify-center border border-white/10 italic text-white/20">
+                        [Vizuální ukázka vize Shared Space]
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="audit" class="py-24 bg-orange-600 text-white">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold mb-8 italic tracking-tighter">60 minut pro vizi vaší obce</h2>
+            <p class="text-xl text-orange-100 mb-12 leading-relaxed text-balance">
+                Identifikujeme bariéry, navrhneme strategii a ukážeme vám cestu k bezpečné a živé obci přímo v terénu.
+            </p>
+            <a href="#spoluprace" class="inline-block px-12 py-6 bg-white text-orange-600 rounded-2xl font-bold text-xl hover:bg-neutral-900 hover:text-white transition shadow-2xl">Rezervovat auditní procházku</a>
+        </div>
+    </section>
+
+    <section id="spoluprace" class="py-32">
+        <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-20">
+            <div>
+                <h2 class="text-4xl font-bold text-neutral-900 mb-8 uppercase tracking-tighter italic">Začněme tvořit vizi</h2>
+                <p class="text-lg text-neutral-500 mb-12 leading-relaxed">Vracíme do měst a obcí život skrze inovativní a funkční urbanismus 21. století.</p>
+                <div class="flex items-center space-x-4 p-6 bg-orange-50 rounded-2xl border border-orange-100">
+                    <div class="w-12 h-12 bg-white text-orange-600 rounded-xl flex items-center justify-center shadow-sm"><i data-lucide="mail"></i></div>
+                    <div>
+                        <p class="text-[10px] font-bold uppercase tracking-widest text-orange-600 opacity-60">Kontaktujte nás</p>
+                        <p class="text-lg font-bold text-neutral-900">urbanismus@vohralik.lab</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white p-10 rounded-[2.5rem] border border-neutral-100 shadow-sm">
+                <form class="space-y-6">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <input type="text" placeholder="Jméno" class="w-full bg-neutral-50 border-none rounded-xl p-4 outline-none focus:ring-2 focus:ring-orange-500 transition-all">
+                        <input type="text" placeholder="Obec / Organizace" class="w-full bg-neutral-50 border-none rounded-xl p-4 outline-none focus:ring-2 focus:ring-orange-500 transition-all">
+                    </div>
+                    <textarea rows="4" placeholder="Vaše vize nebo problémové místo..." class="w-full bg-neutral-50 border-none rounded-xl p-4 outline-none focus:ring-2 focus:ring-orange-500 transition-all"></textarea>
+                    <button type="button" class="w-full py-5 bg-neutral-900 text-white rounded-2xl font-bold uppercase tracking-widest text-sm hover:bg-orange-600 transition-all shadow-xl">Odeslat poptávku</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 border-t border-neutral-100 text-center">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
+            <div class="text-lg font-bold tracking-tighter text-neutral-900 uppercase">VOHRALIK<span class="text-orange-500">.</span>LAB</div>
+            <div class="text-neutral-400 text-[10px] tracking-widest uppercase italic font-bold">Vracíme do měst a obcí život</div>
+            <a href="index.html" class="text-xs font-bold uppercase tracking-widest flex items-center text-neutral-400 hover:text-orange-600 transition-colors">
+                <i data-lucide="layout" class="w-4 h-4 mr-2"></i> Zpět do Hubu
+            </a>
+        </div>
+    </footer>
+
+    <script>lucide.createIcons();</script>
+</body>
+</html>
