@@ -28,13 +28,14 @@
             <div class="hidden md:flex items-center space-x-8 text-sm font-bold uppercase tracking-wider text-neutral-600">
                 <a href="#vize" class="hover:text-orange-600 transition">Vize</a>
                 <a href="#jak-proc" class="hover:text-orange-600 transition">Jak & Proč</a>
+                <a href="#akademie" class="hover:text-orange-600 transition">Vzdělávání</a>
                 <a href="#inspirace" class="hover:text-orange-600 transition">Inspirace</a>
                 <a href="#spoluprace" class="px-5 py-2.5 bg-neutral-900 text-white rounded-full hover:bg-orange-600 transition shadow-lg shadow-orange-600/10">Kontakt</a>
             </div>
         </div>
     </nav>
 
-    <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden border-b border-neutral-50">
+    <section id="vize" class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden border-b border-neutral-50">
         <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
             <div>
                 <span class="inline-block px-4 py-1.5 rounded-full bg-orange-50 text-orange-600 text-xs font-bold uppercase tracking-widest mb-6 italic">Holandské standardy v českém kontextu</span>
@@ -46,7 +47,7 @@
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4">
                     <a href="#audit" class="px-8 py-4 bg-orange-600 text-white rounded-2xl font-bold text-center hover:bg-orange-700 transition shadow-xl shadow-orange-600/30">Auditní procházka obcí</a>
-                    <a href="#jak-proc" class="px-8 py-4 border-2 border-neutral-900 text-neutral-900 rounded-2xl font-bold text-center hover:bg-neutral-50 transition">Naše metodika</a>
+                    <a href="#akademie" class="px-8 py-4 border-2 border-neutral-900 text-neutral-900 rounded-2xl font-bold text-center hover:bg-neutral-50 transition">Přednášky & Semináře</a>
                 </div>
             </div>
             <div class="relative">
@@ -103,6 +104,81 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NOVÁ SEKCE: Vzdělávání & Přednášky (VOHRALIK.LAB AKADEMIE) -->
+    <section id="akademie" class="py-24 bg-neutral-50 border-y border-neutral-100">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <span class="text-orange-500 text-xs font-bold uppercase tracking-widest">Myšlenkový restart pro Česko</span>
+                <h2 class="text-4xl font-bold text-neutral-900 mt-2 mb-4">Vzdělávání & Přednášky</h2>
+                <p class="text-neutral-500 max-w-2xl mx-auto text-lg">Infrastruktura se nemění bagrem, ale změnou myšlení. Pořádáme interaktivní přednášky, workshopy a audity pro zastupitele, školy i veřejnost.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Pro zastupitelstva a úřady -->
+                <div class="bg-white p-8 rounded-[2.5rem] border border-neutral-100 shadow-sm flex flex-col justify-between card-hover">
+                    <div>
+                        <div class="w-12 h-12 bg-orange-50 text-orange-600 rounded-2xl flex items-center justify-center mb-6">
+                            <i data-lucide="presentation"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-neutral-900 mb-4">Pro Zastupitele & Úřady</h3>
+                        <p class="text-neutral-500 text-sm leading-relaxed mb-6">
+                            Praktický seminář pro vedení měst a stavební odbory. Ukážeme vám, jak legislativně i technicky realizovat zóny 30, uliční zúžení a sdílené prostory, a jak komunikovat změny s veřejností bez politických ztrát.
+                        </p>
+                    </div>
+                    <div class="pt-6 border-t border-neutral-100 flex items-center justify-between text-xs font-bold uppercase tracking-wider text-orange-600">
+                        <span>Cílová skupina: B2G</span>
+                        <a href="#spoluprace" class="hover:underline flex items-center gap-1">Chci poptat <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+                    </div>
+                </div>
+
+                <!-- Pro školy a univerzity -->
+                <div class="bg-white p-8 rounded-[2.5rem] border border-neutral-100 shadow-sm flex flex-col justify-between card-hover">
+                    <div>
+                        <div class="w-12 h-12 bg-orange-50 text-orange-600 rounded-2xl flex items-center justify-center mb-6">
+                            <i data-lucide="graduation-cap"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-neutral-900 mb-4">Pro Školy & Studentstvo</h3>
+                        <p class="text-neutral-500 text-sm leading-relaxed mb-6">
+                            Interaktivní a hravé přednášky o urbanismu budoucnosti. Společně se žáky a studenty analyzujeme prostor kolem jejich školy, navrhujeme bezpečnější cesty do lavic a učíme je vnímat město očima chodce a cyklisty.
+                        </p>
+                    </div>
+                    <div class="pt-6 border-t border-neutral-100 flex items-center justify-between text-xs font-bold uppercase tracking-wider text-orange-600">
+                        <span>Cílová skupina: Edu</span>
+                        <a href="#spoluprace" class="hover:underline flex items-center gap-1">Chci poptat <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+                    </div>
+                </div>
+
+                <!-- Pro veřejnost a spolky -->
+                <div class="bg-white p-8 rounded-[2.5rem] border border-neutral-100 shadow-sm flex flex-col justify-between card-hover">
+                    <div>
+                        <div class="w-12 h-12 bg-orange-50 text-orange-600 rounded-2xl flex items-center justify-center mb-6">
+                            <i data-lucide="users"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-neutral-900 mb-4">Participativní Plánování</h3>
+                        <p class="text-neutral-500 text-sm leading-relaxed mb-6">
+                            Veřejné debaty a komunitní workshopy. Pomáháme občanům pochopit, proč omezení tranzitní dopravy před jejich domem neznamená konec světa, ale začátek bezpečnější sousedské komunity.
+                        </p>
+                    </div>
+                    <div class="pt-6 border-t border-neutral-100 flex items-center justify-between text-xs font-bold uppercase tracking-wider text-orange-600">
+                        <span>Cílová skupina: Spolky</span>
+                        <a href="#spoluprace" class="hover:underline flex items-center gap-1">Chci poptat <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-12 p-8 bg-neutral-900 rounded-[2.5rem] text-white flex flex-col sm:flex-row items-center justify-between gap-6 border border-neutral-800">
+                <div class="flex items-center space-x-4">
+                    <div class="w-12 h-12 bg-orange-600 rounded-xl flex items-center justify-center text-white"><i data-lucide="book-open"></i></div>
+                    <div>
+                        <h4 class="font-bold text-lg">Hledáte komplexní balíček?</h4>
+                        <p class="text-xs text-neutral-400">Ideální kombinací pro obce je <b>60minutový audit v terénu + následný seminář pro zastupitelstvo</b>.</p>
+                    </div>
+                </div>
+                <a href="#spoluprace" class="px-6 py-3.5 bg-white text-neutral-900 hover:bg-orange-600 hover:text-white rounded-xl font-bold text-xs uppercase tracking-widest transition-colors">Zjistit cenu balíčku</a>
             </div>
         </div>
     </section>
@@ -196,7 +272,7 @@
                         <input type="text" placeholder="Jméno" class="w-full bg-neutral-50 border-none rounded-xl p-4 outline-none focus:ring-2 focus:ring-orange-500 transition-all">
                         <input type="text" placeholder="Obec / Organizace" class="w-full bg-neutral-50 border-none rounded-xl p-4 outline-none focus:ring-2 focus:ring-orange-500 transition-all">
                     </div>
-                    <textarea rows="4" placeholder="Vaše vize nebo problémové místo..." class="w-full bg-neutral-50 border-none rounded-xl p-4 outline-none focus:ring-2 focus:ring-orange-500 transition-all"></textarea>
+                    <textarea rows="4" placeholder="Vaše vize, problémové místo nebo typ přednášky, kterou poptáváte..." class="w-full bg-neutral-50 border-none rounded-xl p-4 outline-none focus:ring-2 focus:ring-orange-500 transition-all"></textarea>
                     <button type="button" class="w-full py-5 bg-neutral-900 text-white rounded-2xl font-bold uppercase tracking-widest text-sm hover:bg-orange-600 transition-all shadow-xl">Odeslat poptávku</button>
                 </form>
             </div>
